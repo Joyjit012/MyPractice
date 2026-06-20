@@ -1,0 +1,174 @@
+body{
+    background:url(dark1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.topbar{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+/* logo row */
+.logo{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+
+/* image */
+.logo img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    
+}
+
+/* text block */
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Learnify */
+.text span{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* tagline */
+.tagline{
+    font-size: 13px;
+    color: #7aa6ff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -1px;
+
+}
+.container{
+    position: relative;
+    
+    width: 450px;
+    height: 480px;
+    left: 530px;
+    top: 80px;
+    border-radius: 12px;
+    box-shadow: 0 3px 36px black;
+   backdrop-filter: blur(18px);
+    background: rgba(255, 255, 255, 0.07);
+    
+    
+}
+.top{
+  position:absolute;
+  color: white;
+margin-top: 5px;
+margin-left: 175px;
+}
+
+.head{
+    position: absolute;
+    top: 0;
+    margin: 80px;
+    
+    
+    
+    
+}
+.head-grp{
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  margin-left: -14px;
+  font-size: small;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.foot button{
+    position: absolute;
+    bottom: 0;
+    top: 419px;
+    left: 70px;
+    border: 2px solid;
+    border-radius: 4px;
+    height: 50px;
+    width: 300px;
+    background: linear-gradient(to left, rgb(23, 202, 151), rgb(9, 180, 203));
+    
+    
+
+}
+
+input {
+  border-radius: 8px;
+   height: 22px;
+   margin-left: 8px;
+   
+   
+   
+   
+}
+
+input[type="radio"]{
+    margin: 0;
+}
+
+  
+
+
+
+label{
+    width: 100px;
+    color: white;
+}
+.radio-grp{
+  display:flex;
+  align-items:center;
+  gap:2px
+  
+  
+ 
+  }
+  .circle {
+  display: flex;
+  align-items: center;   
+  gap: 2px;
+  }  
+  .check{
+    margin-top: 33px;
+    font-size: 14px;
+    margin-left: -54px;
+    font-weight: bold;
+
+    }
+  input[type="checkbox"]{
+    transform: translateY(5px);
+    
+  }
+  .h2{
+    position: relative;
+    top: 494px;
+    left: 214px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    
+  }
+  .tail{
+    position: relative;
+    top: 514px;
+    left: 104px;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    
+  }
+  a{
+    color: #ac0505;
+  }
