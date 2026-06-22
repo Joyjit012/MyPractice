@@ -58,7 +58,6 @@ body{
     top: 80px;
     border-radius: 12px;
     box-shadow: 0 3px 36px black;
-   backdrop-filter: blur(18px);
     background: rgba(255, 255, 255, 0.07);
     
     
